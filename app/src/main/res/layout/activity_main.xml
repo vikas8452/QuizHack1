@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <data/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shape"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Instructions  :"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="@string/two"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="@string/three"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="@string/four"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/test"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="136dp"
+            android:gravity="center"
+            android:text="START" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/adView"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:popupBackground="@color/colorAccent"
+            android:textAlignment="center">
+
+        </Spinner>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+        <Button
+            android:id="@+id/tutorial"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/adView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="Watch Tutorial"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</layout>

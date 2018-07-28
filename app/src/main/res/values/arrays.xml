@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="engine">
+        <item>Google</item>
+        <item>Ask.com</item>
+        <item>Aol.</item>
+        <item>Bing</item>
+        <item>DuckDuckGo</item>
+        <item>Excite.com</item>
+    </string-array>
+</resources>

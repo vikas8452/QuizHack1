@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "474632515574",
+    "firebase_url": "https://bookdash-77b51.firebaseio.com",
+    "project_id": "bookdash-77b51",
+    "storage_bucket": "bookdash-77b51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474632515574:android:4dfa9b4b5b667af0",
+        "android_client_info": {
+          "package_name": "com.example.dell.quizassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474632515574-bhf80ep13sn08kh1o6811gpqdd9ogcfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.quizassist",
+            "certificate_hash": "c973d0a8c5c0fcbb0c7890d7ed838213137b5e02"
+          }
+        },
+        {
+          "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WXH8r3jab6Yww5Iq2PfE5d65TkDYzvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474632515574:android:273510805f56a3ce",
+        "android_client_info": {
+          "package_name": "com.vikas.dell.quizassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474632515574-1of7lrmd8adoidqhksk7v3u74ev8khlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikas.dell.quizassist",
+            "certificate_hash": "c973d0a8c5c0fcbb0c7890d7ed838213137b5e02"
+          }
+        },
+        {
+          "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WXH8r3jab6Yww5Iq2PfE5d65TkDYzvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474632515574:android:edc1c0c378d00ad6",
+        "android_client_info": {
+          "package_name": "com.vikas.quizhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474632515574-tsvkcodurd3dui16hp6koah053u91hpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikas.quizhack",
+            "certificate_hash": "c973d0a8c5c0fcbb0c7890d7ed838213137b5e02"
+          }
+        },
+        {
+          "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WXH8r3jab6Yww5Iq2PfE5d65TkDYzvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474632515574-tfd6ot8dmbpgmeqqpi8flrbf0l6gniea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
